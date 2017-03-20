@@ -1,13 +1,16 @@
-Background{
+body{
+	background-image:
 	height: auto;
 	width: 1024px;
 	position: relative;
 	z-index: 2;
 }
 #Logo{
-	left: 24px;
-	top: 20px;
-	height: auto;
-	width: auto;
-	z-index: 1;
+	left: 385px;
+	top: 46px;
+	height: 272px;
+	width: 265px;
+	z-index: 100;
+	float: inherit;
+
 }
