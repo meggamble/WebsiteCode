@@ -2,10 +2,12 @@ Background{
 	height: auto;
 	width: 1024px;
 	position: relative;
+	z-index: 2;
 }
 #Logo{
 	left: 24px;
 	top: 20px;
 	height: auto;
 	width: auto;
+	z-index: 1;
 }
