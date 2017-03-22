@@ -15,3 +15,20 @@
   left: 584px;
 z-index: 2;
 }
+.PortfolioLink{
+	position: absolute;
+	top: 545px;
+	left: 550px;
+	z-index: 1;
+	font-size: 24px;
+	font-family: sans-serif;
+	}
+.AccomplishmentsLink{
+	position: absolute;
+	top: 545px;
+	left: 650px;
+	z-index: 1;
+	font-size: 24px;
+	font-family: sans-serif;
+
+}
