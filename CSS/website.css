@@ -1,31 +1,17 @@
-body{
-	background-image:
-	height: auto;
-	width: 1024px;
-	position: relative;
-	z-index: 2;
-}
-#Logo{
-	left: 385px;
-	top: 46px;
-	height: 272px;
-	width: 265px;
-	z-index: 100;
-	float: inherit;
-
-}
 .parent {
   position: relative;
   top: 0;
   left: 0;
 }
 .image1 {
-  position: relative;
+  position: inherit;
   top: 0;
   left: 0;
+	z-index: 1;
 }
 .image2 {
   position: absolute;
   top: 143px;
   left: 584px;
+z-index: 2;
 }
