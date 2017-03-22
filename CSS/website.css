@@ -18,7 +18,7 @@ z-index: 2;
 .PortfolioLink{
 	position: absolute;
 	top: 545px;
-	left: 550px;
+	left: 750px;
 	z-index: 1;
 	font-size: 24px;
 	font-family: sans-serif;
@@ -26,9 +26,16 @@ z-index: 2;
 .AccomplishmentsLink{
 	position: absolute;
 	top: 545px;
+	left: 850px;
+	z-index: 1;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+.HomePage{
+	position: absolute;
+	top: 545px;
 	left: 650px;
 	z-index: 1;
 	font-size: 24px;
 	font-family: sans-serif;
-
 }
