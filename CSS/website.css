@@ -14,6 +14,7 @@ body{
 	font-size: 36px;
 	color: black;
 	font-family: 'Amaranth', sans-serif;
+	order: 1;
 }
 .PortfolioLink{
 	z-index: 1;
@@ -21,12 +22,14 @@ body{
 	font-family: sans-serif;
 	color: black;
 	font-family: 'Amaranth', sans-serif;
+	order: 2;
 	}
 .AccomplishmentsLink{
 	z-index: 1;
 	font-size: 36px;
 	color: black;
 	font-family: 'Amaranth', sans-serif;
+	order: 3;
 }
 .image2 {
 	display: flex;
