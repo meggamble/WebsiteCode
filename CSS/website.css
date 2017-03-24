@@ -1,3 +1,10 @@
+#main.conatiner{
+	 background-image: url('/images/boatpic1.JPG');
+	width: 1024px;
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
 .parent {
   position: absolute;
   top: 0;
@@ -18,7 +25,7 @@ z-index: 2;
 .PortfolioLink{
 	position: absolute;
 	top: 545px;
-	left: 676px;
+	left: 647px;
 	z-index: 1;
 	font-size: 36px;
 	font-family: sans-serif;
@@ -28,7 +35,7 @@ z-index: 2;
 .AccomplishmentsLink{
 	position: absolute;
 	top: 545px;
-	left: 825px;
+	left: 785px;
 	z-index: 1;
 	font-size: 36px;
 	color: black;
