@@ -7,36 +7,55 @@ body{
 #main_container{
 	display: flex;
 	justify-content: center;
-	z-index: 1;
-	height: 600px;
+	align-items: center;
+	justify-content: space-around;
 }
-.HomePage{
-	font-size: 36px;
-	color: black;
-	font-family: 'Amaranth', sans-serif;
-	order: 1;
+#row{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
 }
-.PortfolioLink{
-	z-index: 1;
-	font-size: 36px;
-	font-family: sans-serif;
-	color: black;
-	font-family: 'Amaranth', sans-serif;
-	order: 2;
-	}
-.AccomplishmentsLink{
-	z-index: 1;
-	font-size: 36px;
-	color: black;
-	font-family: 'Amaranth', sans-serif;
-	order: 3;
-}
+
 .image2 {
 	display: flex;
 	justify-content: center;
-	z-index: 2;
+	align-items: center;
 	height: 500px;
+	width: auto;
+	align-self: center;
+	margin-top: 300px;
 }
+
+
+.HomePage{
+	font-size: 50px;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	order: 1;
+	justify-content: space-around;
+	padding: 20px;
+
+}
+
+.PortfolioLink{
+	z-index: 1;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 20px;
+
+	}
+
+.AccomplishmentsLink{
+	z-index: 1;
+	font-size: 50px;
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 20px;
+
+}
+
 
 
 
