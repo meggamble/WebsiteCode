@@ -4,6 +4,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 #main_container{
 	display: flex;
 	justify-content: center;
@@ -12,22 +13,30 @@ body{
 }
 
 .image2 {
-	display: flex;
 	align-items: center;
 	height: 500px;
 	width: auto;
+	margin-top: 50px;
+	margin-left: 600px;
 }
 
+#flex container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 400px;
+}
 
 .HomePage{
 	font-size: 50px;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-
 	order: 1;
 	justify-content: space-around;
-	padding: 20px;
-
+	padding: 15px;
+	justify-content: center;
+	margin-top: 600px;
+	margin-left: 400px;
 }
 
 .PortfolioLink{
@@ -36,7 +45,7 @@ body{
 	font-family: sans-serif;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-	padding: 20px;
+	padding: 15px;
 
 	}
 
@@ -45,8 +54,9 @@ body{
 	font-size: 50px;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-
-	padding: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-content: center;
 
 }
 
