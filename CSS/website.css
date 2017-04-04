@@ -13,54 +13,35 @@ body{
 }
 
 .image2 {
-	align-items: center;
-	height: 500px;
 	width: auto;
-	margin-top: 50px;
-	margin-left: 600px;
-}
+	height: 500px;
+	width: 500px;
 
-#flex container{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-left: 400px;
 }
 
 .HomePage{
 	font-size: 50px;
 	color: black;
-	font-family: 'Raleway', sans-serif;
-	order: 1;
-	justify-content: space-around;
+	font-family: 'Dancing Script', cursive;
 	padding: 15px;
-	justify-content: center;
-	margin-top: 600px;
-	margin-left: 400px;
 }
 
 .PortfolioLink{
-	z-index: 1;
 	font-size: 50px;
 	font-family: sans-serif;
 	color: black;
 	font-family: 'Dancing Script', cursive;
-
 	padding: 15px;
 
 	}
 
 .AccomplishmentsLink{
-	z-index: 1;
 	font-size: 50px;
 	color: black;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Dancing Script', cursive;
 	padding: 15px;
-	justify-content: center;
-	align-content: center;
 
 }
-
 
 
 
