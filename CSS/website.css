@@ -1,13 +1,44 @@
 body{
 	margin: 0px;
+}
+
+.maincontainer{
+	width: 100vw;
+	height: 100vh;
 	background-image: url(../boatpic1.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
-#everything{
+
+#links{
+	justify-content: center;
+	align-content: center;
 	display:flex;
+	font-size: 60px;
+	font-family: 'Dancing Script', cursive;
+	z-index: 1;
 }
 
 .image2{
-	margin-top: 20px;
+	height: 500px;
+	width: 500px;
+}
+
+.HomePage{
+	color: black;
+	padding: 15px;
+}
+
+.PortfolioLink{
+	color: black;
+	padding: 15px;
+}
+
+.AccomplishmentsLink{
+	color: black;
+	padding: 15px;
 }
