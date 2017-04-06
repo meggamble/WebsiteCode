@@ -4,48 +4,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 #everything{
-	display: flex;}
-
-.image2 {
-	width: auto;
-	height: auto;
-	z-index: 2;
+	display:flex;
 }
 
-#links{
-	margin-top: 500px;
-	align-content: center;
+.image2{
+	margin-top: 20px;
 }
-
-.HomePage{
-	font-size: auto;
-	color: black;
-	font-family: 'Dancing Script', cursive;
-	padding: 15px;
-	z-index: 1;
-}
-
-.PortfolioLink{
-	font-size: auto;
-	font-family: sans-serif;
-	color: black;
-	font-family: 'Dancing Script', cursive;
-	padding: 15px;
-	z-index: 1;
-
-	}
-
-.AccomplishmentsLink{
-	font-size: auto;
-	color: black;
-	font-family: 'Dancing Script', cursive;
-	padding: 15px;
-	z-index: 1;
-
-}
-
-
-
-
