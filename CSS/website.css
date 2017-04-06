@@ -5,41 +5,44 @@ body{
 	background-size: cover;
 }
 
-#main_container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	justify-content: space-around;
-}
+#everything{
+	display: flex;}
 
 .image2 {
 	width: auto;
-	height: 500px;
-	width: 500px;
+	height: auto;
+	z-index: 2;
+}
 
+#links{
+	margin-top: 500px;
+	align-content: center;
 }
 
 .HomePage{
-	font-size: 50px;
+	font-size: auto;
 	color: black;
 	font-family: 'Dancing Script', cursive;
 	padding: 15px;
+	z-index: 1;
 }
 
 .PortfolioLink{
-	font-size: 50px;
+	font-size: auto;
 	font-family: sans-serif;
 	color: black;
 	font-family: 'Dancing Script', cursive;
 	padding: 15px;
+	z-index: 1;
 
 	}
 
 .AccomplishmentsLink{
-	font-size: 50px;
+	font-size: auto;
 	color: black;
 	font-family: 'Dancing Script', cursive;
 	padding: 15px;
+	z-index: 1;
 
 }
 
