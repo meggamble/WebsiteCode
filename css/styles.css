@@ -85,6 +85,10 @@ body{
         max-width: 375px;
         min-width: 275px;
 		margin-top: 40px;
+		max-height: 375px;
+		min-height: 375px;
+		height: 40%;
+
     }
 
 .navlist2{
@@ -115,3 +119,16 @@ body{
         }
 
 /*ACCOMPLISHMENT PAGE START CSS*/
+
+
+/*GALLERY PORTFOLIO*/
+#container {
+	    position:relative;
+		display: flex;
+		flex-direction: row;
+
+	    }
+#container ul {
+
+
+
