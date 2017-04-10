@@ -1,0 +1,61 @@
+/*External CSS for Resume Website*/
+
+/*Resets Body Margin to 0px*/
+body{
+	margin: 0px;
+}
+
+/*Main Container*/
+.maincontainer{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/boatpic1.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+    /*Logo*/
+    .logo{
+    	width: 40%;
+        max-width: 375px;
+        min-width: 275px;
+    }
+
+    /*Navigation*/
+
+        /*Nav List*/
+        .navlist{
+            display: flex;
+            list-style-type: none;
+            padding: 0px;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        /*Nav List Items*/
+        .navitem{
+            list-style-type: none;
+            padding: 10px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 52px;
+            background-color: rgba(255, 255, 255, 0.25);
+            margin: 10px;
+            border-radius: 10px;
+            transition: background-color 1s;
+        }
+
+        /*Nav List Item Background Color Transition on Hover*/
+        .navitem:hover{
+            background-color: rgba(220, 220, 255, 0.5);
+        }
+
+        /*Nav Links (a tags)*/
+        .navlink{
+            color: white;
+            text-decoration: none;
+        }
