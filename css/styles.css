@@ -59,6 +59,9 @@ body{
             color: white;
             text-decoration: none;
         }
+
+ /*PORTFOLIO PAGE START CSS*/
+
 .navlist2{
             display: flex;
             list-style-type: none;
@@ -85,3 +88,5 @@ body{
             color: black;
             text-decoration: none;
         }
+
+/*ACCOMPLISHMENT PAGE START CSS*/
