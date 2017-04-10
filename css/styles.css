@@ -62,6 +62,30 @@ body{
 
  /*PORTFOLIO PAGE START CSS*/
 
+body{
+	margin: 0px;
+}
+
+/*Main Container*/
+.maincontainer2{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/BackgroundPortfolio.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+    /*Logo*/
+    .logo2{
+    	width: 40%;
+        max-width: 375px;
+        min-width: 275px;
+    }
+
 .navlist2{
             display: flex;
             list-style-type: none;
