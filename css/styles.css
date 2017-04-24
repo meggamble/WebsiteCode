@@ -121,20 +121,18 @@ body{
 
 /*GALLERY PORTFOLIO*/
 
-#container{
-	height: 350px;
-	width: 350px;
-}
-.port-image
-{
-    width: 100%;
+.container{
+	display: flex;
+	flex-direction: row;
+	align-content: left;
 }
 
 .gallery_product
 {
     margin-bottom: 30px;
 	display: flex;
-	flex-direction: row;
+	height: 250px;
+	width: 350px;
 }
 
 
