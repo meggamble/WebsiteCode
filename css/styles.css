@@ -121,16 +121,15 @@ body{
 
 /*GALLERY PORTFOLIO*/
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+h1{font-size: 300px;}
 
+body {
   font-family:'Dancing Script', cursive;
   color: #555;
   background: #e5e5e5;
@@ -187,3 +186,56 @@ h1 {
 
 /*ACCOMPLISHMENT PAGE START CSS*/
 
+.maincontainer3{
+	width: 100vw;
+	height: 100vh;
+	background-image:url(../images/boat.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+   /*Logo*/
+    .logo3{
+    	width: 40%;
+        max-width: 375px;
+        min-width: 275px;
+    }
+
+    /*Navigation*/
+
+        /*Nav List*/
+        .navlist3{
+            display: flex;
+            list-style-type: none;
+            padding: 0px;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        /*Nav List Items*/
+        .navitem{
+            list-style-type: none;
+            padding: 10px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 52px;
+            background-color: rgba(255, 255, 255, 0.25);
+            margin: 10px;
+            border-radius: 10px;
+            transition: background-color 1s;
+        }
+
+        /*Nav List Item Background Color Transition on Hover*/
+        .navitem:hover{
+            background-color: rgba(220, 220, 255, 0.5);
+        }
+
+        /*Nav Links (a tags)*/
+        .navlink{
+            color: white;
+            text-decoration: none;
+        }
