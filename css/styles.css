@@ -189,13 +189,14 @@ h1 {
 .maincontainer3{
 	width: 100vw;
 	height: 100vh;
-	background-image:url(../images/boat.JPG);
+	background-image: url(../images/boat.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
+
 }
 
    /*Logo*/
@@ -203,6 +204,7 @@ h1 {
     	width: 40%;
         max-width: 375px;
         min-width: 275px;
+		margin-top: 20px;
     }
 
     /*Navigation*/
