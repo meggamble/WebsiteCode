@@ -71,7 +71,7 @@ body{
 .maincontainer2{
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../images/BackgroundPortfolio.JPG);
+	background-image: url(../images/DSC_0049.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -129,11 +129,9 @@ body{
   box-sizing: border-box;
 }
 
-h1{font-size: 300px;}
-
 body {
   font-family:'Dancing Script', cursive;
-  color: #555;
+  color: black;
   background: #e5e5e5;
 }
 
@@ -180,7 +178,7 @@ body {
 
 h1 {
   margin: 40px 0;
-  font-size: 30px;
+  font-size: 75px;
   font-weight: 300;
   text-align: center;
 }
@@ -191,7 +189,7 @@ h1 {
 .maincontainer3{
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../images/boat.JPG);
+	background-image: url(../images/DSC_0052.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
