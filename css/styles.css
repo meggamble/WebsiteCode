@@ -157,7 +157,9 @@ H1{ text-shadow: 1px 1px 2px black;
   position: relative;
   float: left;
   padding: 7.5px;
+	margin-bottom: 5px;
  background: #fff;
+	margin-left: 5px;
 }
 
 .gallery > div > img {
@@ -252,9 +254,19 @@ h1 {
             color: white;
             text-decoration: none;
         }
-p{text-align: center;
-font-size: 20px;
-color: beige;
+body2 {
+  font-family:'Dancing Script', cursive;
+  color: white;
+  background: #e5e5e5;
 
 }
+
+h1{ text-shadow: 1px 1px 2px black;
+	font-size: 75px;}
+
+#words{
+	background-color: aliceblue;
+
+}
+
 
