@@ -100,6 +100,7 @@ body{
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
+
         }
 
         /*Nav List Items*/
@@ -112,11 +113,12 @@ body{
             margin: 10px;
             border-radius: 10px;
             transition: background-color 1s;
+
         }
 
         /*Nav Links (a tags)*/
         .navlink2{
-            color: black;
+            color: white;
             text-decoration: none;
         }
 
@@ -133,34 +135,32 @@ body {
   font-family:'Dancing Script', cursive;
   color: black;
   background: #e5e5e5;
-	display: flex;
-	align-content: center;
-	justify-content: center;
 }
 
-/*PUT BACK PERIOD FOR BOX*/
 .gallery {
-	  width: inherit;
-
+  width: 1400px;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,.3);
+
 }
 
 .gallery > div {
+  position: relative;
   float: left;
   padding: 5px;
 }
 
 .gallery > div > img {
+  display: block;
   width: 450px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
 
 .gallery > div:hover {
-  z-index: 10;
+  z-index: 1;
 }
 
 .gallery > div:hover > img {
@@ -183,7 +183,7 @@ h1 {
   font-size: 75px;
   font-weight: 300;
   text-align: center;
-border-bottom-style: dotted;
+}
 
 /*ACCOMPLISHMENT PAGE START CSS*/
 
@@ -202,21 +202,18 @@ border-bottom-style: dotted;
 
   /*Logo*/
     .logo3{
-    	width: 40%;
+    	margin-top: 150px;
+			width: 40%;
         max-width: 375px;
         min-width: 275px;
-		margin-top: 200px;
-		margin-bottom: 20px;
-		max-height: 375px;
-		min-height: 375px;
-		height: 40%;
+		padding: 20px;
 
     }
 
     /*Navigation*/
 
         /*Nav List*/
-        .Navlist3{
+        .navlist3{
             display: flex;
             list-style-type: none;
             padding: 0px;
@@ -238,18 +235,16 @@ border-bottom-style: dotted;
         }
 
         /*Nav List Item Background Color Transition on Hover*/
-
-.navitem3:hover{
+        .navitem3:hover{
             background-color: rgba(255, 243, 219, 0.5);
         }
 
         /*Nav Links (a tags)*/
-.navlink3{
+        .navlink3{
             color: white;
             text-decoration: none;
         }
-
-	{text-align: center;
+p{text-align: center;
 font-size: 20px;
 color: beige;
 
