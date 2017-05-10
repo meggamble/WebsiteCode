@@ -133,9 +133,11 @@ body{
 
 body {
   font-family:'Dancing Script', cursive;
-  color: black;
+  color: white;
   background: #e5e5e5;
 }
+
+H1{ text-shadow: 1px 1px 2px black;}
 
 .gallery {
   width: 1400px;
