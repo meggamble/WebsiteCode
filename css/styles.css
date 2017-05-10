@@ -150,12 +150,14 @@ H1{ text-shadow: 1px 1px 2px black;
 	margin-left: 150px;
 	margin-right: 10px;
 
+
 }
 
 .gallery > div {
   position: relative;
   float: left;
-  padding: 5px;
+  padding: 7.5px;
+ background: #fff;
 }
 
 .gallery > div > img {
