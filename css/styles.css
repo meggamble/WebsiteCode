@@ -23,8 +23,19 @@ body{
     	width: 40%;
         max-width: 375px;
         min-width: 275px;
-		padding: 20px;
+		padding: 10px;
     }
+#MyName{
+	display: flex;
+	font-size: 185px;
+font-family: 'Allura', cursive;
+}
+
+#shit{display: flex;}
+
+
+text-emphasis: 1px 1px 2px black; }
+
 
     /*Navigation*/
 
@@ -261,12 +272,43 @@ body2 {
 
 }
 
-h1{ text-shadow: 1px 1px 2px black;
-	font-size: 75px;}
+#hader{ text-shadow: 1px 1px 2px black;
+	font-size: 75px;;
+margin-top: 20px;
 
-#words{
-	background-color: aliceblue;
+
+
 
 }
+
+
+#accomplishments2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 40px;
+	margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.89);
+	color: black;
+	margin-right: 300px;
+	margin-left: 300px;
+	width: 60%;
+	padding: 20px;
+
+}
+
+p1{
+	font-size: 50px;
+align-content: center;
+	padding: 10px;
+}
+
+p2{ font-size: 30px;
+align-content: center;
+font-family: 'Slabo 27px', serif;}
+
+#communication{font-size: 30px;
+font-family: 'Slabo 27px', serif;
+justify-content: center;}
 
 
